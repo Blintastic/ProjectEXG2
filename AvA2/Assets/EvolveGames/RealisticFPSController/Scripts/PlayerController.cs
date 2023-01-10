@@ -10,7 +10,6 @@ namespace EvolveGames
     {
         [Header("PlayerController")]
         [SerializeField] public Transform Camera;
-        [SerializeField] public ItemChange Items;
         [SerializeField, Range(1, 10)] float walkingSpeed = 3.0f;
         [Range(0.1f, 5)] public float CroughSpeed = 1.0f;
         [SerializeField, Range(2, 20)] float RuningSpeed = 4.0f;
@@ -65,7 +64,6 @@ namespace EvolveGames
         void Start()
         {
             characterController = GetComponent<CharacterController>();
-            if (Items == null && GetComponent<ItemChange>()) Items = GetComponent<ItemChange>();
             cam = GetComponentInChildren<Camera>();
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
@@ -143,8 +141,6 @@ namespace EvolveGames
             if(WallDistance != Physics.Raycast(GetComponentInChildren<Camera>().transform.position, transform.TransformDirection(Vector3.forward), out ObjectCheck, HideDistance, LayerMaskInt) && CanHideDistanceWall)
             {
                 WallDistance = Physics.Raycast(GetComponentInChildren<Camera>().transform.position, transform.TransformDirection(Vector3.forward), out ObjectCheck, HideDistance, LayerMaskInt);
-                Items.ani.SetBool("Hide", WallDistance);
-                Items.DefiniteHide = WallDistance;
             }
         }
 
@@ -155,7 +151,6 @@ namespace EvolveGames
                 CanRunning = false;
                 isClimbing = true;
                 WalkingValue /= 2;
-                Items.Hide(true);
             }
         }
         private void OnTriggerStay(Collider other)
@@ -172,8 +167,6 @@ namespace EvolveGames
                 CanRunning = true;
                 isClimbing = false;
                 WalkingValue *= 2;
-                Items.ani.SetBool("Hide", false);
-                Items.Hide(false);
             }
         }
 
