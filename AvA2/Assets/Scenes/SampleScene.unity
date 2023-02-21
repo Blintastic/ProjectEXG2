@@ -134,7 +134,6 @@ GameObject:
   - component: {fileID: 527458434}
   - component: {fileID: 527458433}
   - component: {fileID: 527458432}
-  - component: {fileID: 527458435}
   m_Layer: 0
   m_Name: TerrainTry
   m_TagString: Untagged
@@ -202,31 +201,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &527458435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 527458431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f70fa6dacc4f831498eee75fbdda720b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  camToDrawWith: {fileID: 2035993188}
-  layer:
-    m_Bits: 2147483647
-  renderers: []
-  terrains:
-  - {fileID: 527458433}
-  resolution: 512
-  adjustScaling: 2.5
-  RealTimeDiffuse: 0
-  tempTex: {fileID: 0}
-  bounds:
-    m_Center: {x: 62.5, y: 11.536348, z: 62.5}
-    m_Extent: {x: 187.5, y: 11.536348, z: 187.5}
 --- !u!1 &560494932
 GameObject:
   m_ObjectHideFlags: 0
@@ -564,10 +538,5 @@ PrefabInstance:
 --- !u!4 &1435944062 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 476310950417694852, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
-  m_PrefabInstance: {fileID: 1424142343}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &2035993188 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 4582019822591254233, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
   m_PrefabInstance: {fileID: 1424142343}
   m_PrefabAsset: {fileID: 0}
