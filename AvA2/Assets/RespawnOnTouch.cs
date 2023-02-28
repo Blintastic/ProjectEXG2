@@ -17,14 +17,8 @@ public class RespawnOnTouch : MonoBehaviour
 
     private void RespawnObject()
     {
-        // move the object to the respawn point
         transform.position = respawnPoint.position;
         transform.rotation = respawnPoint.rotation;
-
-        // reset any other necessary properties or variables
-        // ...
-
-        Debug.Log("Object respawned at " + respawnPoint.position);
     }
 }
 
