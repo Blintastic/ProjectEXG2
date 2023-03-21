@@ -292,7 +292,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 560494932}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.38, y: 1.27, z: 9.33}
+  m_LocalPosition: {x: 0.38, y: 2.66, z: 9.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -488,7 +488,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 84156265859569871, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.852
+      value: 318
       objectReference: {fileID: 0}
     - target: {fileID: 84156265859569871, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_LocalPosition.y
@@ -496,11 +496,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 84156265859569871, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.984
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 333847611250628087, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 337750975313653388, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: gravityGun
@@ -592,7 +592,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3236607302009612755, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3236607302009612755, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_LocalPosition.z
@@ -624,7 +624,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4299693025215656081, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 658
       objectReference: {fileID: 0}
     - target: {fileID: 4299693025215656081, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_LocalPosition.y
@@ -632,7 +632,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4299693025215656081, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.87
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4582019822591254233, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_TargetTexture
@@ -724,7 +724,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4608183463007235813, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1240
       objectReference: {fileID: 0}
     - target: {fileID: 4608183463007235813, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_LocalPosition.y
@@ -732,7 +732,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4608183463007235813, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.456
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5736742471380553582, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_PropertySheet.m_Float.m_Array.Array.size
@@ -816,39 +816,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5736742471380553582, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Value.x
-      value: 0.385
+      value: 0.59599996
       objectReference: {fileID: 0}
     - target: {fileID: 5736742471380553582, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Value.y
-      value: 0.12199998
+      value: 2.588
       objectReference: {fileID: 0}
     - target: {fileID: 5736742471380553582, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Value.z
-      value: 0.232
+      value: 0.549
       objectReference: {fileID: 0}
     - target: {fileID: 5736742471380553582, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[1].m_Value.x
-      value: 2.237
+      value: 0.56918573
       objectReference: {fileID: 0}
     - target: {fileID: 5736742471380553582, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[1].m_Value.y
-      value: -1.7779999
+      value: 2.5578341
       objectReference: {fileID: 0}
     - target: {fileID: 5736742471380553582, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[1].m_Value.z
-      value: 4.216
+      value: 2.6807108
       objectReference: {fileID: 0}
     - target: {fileID: 5736742471380553582, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[2].m_Value.x
-      value: 0.385
+      value: 0.54907507
       objectReference: {fileID: 0}
     - target: {fileID: 5736742471380553582, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[2].m_Value.y
-      value: -0.008000135
+      value: 2.5696995
       objectReference: {fileID: 0}
     - target: {fileID: 5736742471380553582, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[2].m_Value.z
-      value: 7.1019998
+      value: 4.959899
       objectReference: {fileID: 0}
     - target: {fileID: 5736742471380553582, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[3].m_Value.x
@@ -856,7 +856,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5736742471380553582, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[3].m_Value.y
-      value: 1.27
+      value: 2.66
       objectReference: {fileID: 0}
     - target: {fileID: 5736742471380553582, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[3].m_Value.z
@@ -980,7 +980,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7556507096259112191, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7640740991547377599, guid: a01c7516e659bdf4b9897ab54df69b69, type: 3}
       propertyPath: m_IsActive
@@ -1027,7 +1027,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ExecuteInEditor: 1
-  m_Bindings: []
+  m_Bindings:
+  - {fileID: 1424142346}
+  - {fileID: 1424142352}
+  - {fileID: 1424142353}
+  - {fileID: 1424142354}
   m_VisualEffect: {fileID: 1424142345}
 --- !u!4 &1424142349 stripped
 Transform:
