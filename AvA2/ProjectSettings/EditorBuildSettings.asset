@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/MyGame/Scenes/StartMenu/Planet3.unity
+    guid: 530911c9c5f4fa54184678d23787e09d
+  - enabled: 1
+    path: Assets/MyGame/Scenes/Planets/Planet1.unity
+    guid: 584f381b75267084bae7cd95a707f30a
+  - enabled: 1
+    path: Assets/MyGame/Scenes/Planets/Planet3.unity
+    guid: 5ec84f4b16bb24342a70b35cf997e445
   m_configObjects: {}
