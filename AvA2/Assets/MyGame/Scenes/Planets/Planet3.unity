@@ -18471,7 +18471,7 @@ GameObject:
   - component: {fileID: 537183348}
   - component: {fileID: 537183347}
   - component: {fileID: 537183346}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18570,7 +18570,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &540640651
 PrefabInstance:
@@ -34568,7 +34568,7 @@ GameObject:
   - component: {fileID: 1121052865}
   - component: {fileID: 1121052864}
   - component: {fileID: 1121052868}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34651,7 +34651,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1121052868
 Rigidbody:
@@ -37767,54 +37767,6 @@ PrefabInstance:
     - target: {fileID: 4229040126678775342, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
       propertyPath: m_Name
       value: FinalCharacterController
-      objectReference: {fileID: 0}
-    - target: {fileID: 7796672818218779284, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
-      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Value.x
-      value: -0.2666853
-      objectReference: {fileID: 0}
-    - target: {fileID: 7796672818218779284, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
-      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Value.y
-      value: 9.474999
-      objectReference: {fileID: 0}
-    - target: {fileID: 7796672818218779284, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
-      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Value.z
-      value: 0.36183968
-      objectReference: {fileID: 0}
-    - target: {fileID: 7796672818218779284, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
-      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[1].m_Value.x
-      value: -0.6224555
-      objectReference: {fileID: 0}
-    - target: {fileID: 7796672818218779284, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
-      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[1].m_Value.y
-      value: 9.144
-      objectReference: {fileID: 0}
-    - target: {fileID: 7796672818218779284, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
-      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[1].m_Value.z
-      value: 0.05152905
-      objectReference: {fileID: 0}
-    - target: {fileID: 7796672818218779284, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
-      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[2].m_Value.x
-      value: -3.8634648
-      objectReference: {fileID: 0}
-    - target: {fileID: 7796672818218779284, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
-      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[2].m_Value.y
-      value: 10.108
-      objectReference: {fileID: 0}
-    - target: {fileID: 7796672818218779284, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
-      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[2].m_Value.z
-      value: 3.029955
-      objectReference: {fileID: 0}
-    - target: {fileID: 7796672818218779284, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
-      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[3].m_Value.x
-      value: -7.6224413
-      objectReference: {fileID: 0}
-    - target: {fileID: 7796672818218779284, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
-      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[3].m_Value.y
-      value: 9.474999
-      objectReference: {fileID: 0}
-    - target: {fileID: 7796672818218779284, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
-      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[3].m_Value.z
-      value: -0.7376671
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
@@ -61840,7 +61792,7 @@ GameObject:
   - component: {fileID: 2099893674}
   - component: {fileID: 2099893673}
   - component: {fileID: 2099893672}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61939,7 +61891,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2100340251
 PrefabInstance:

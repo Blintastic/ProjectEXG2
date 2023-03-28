@@ -14,6 +14,8 @@ public class GravityWeaponController : MonoBehaviour
 
     [SerializeField] float scrollSpeed = 5;
 
+    [SerializeField] private LayerMask grabbedRBLayerMask;
+        
     bool arcNeeded = false;
 
     Rigidbody grabbedRB;
@@ -25,6 +27,7 @@ public class GravityWeaponController : MonoBehaviour
     private void Update()
     {
         CheckArc();
+        GravityGunLogic();
 
         if (Puzzle_1.isSnapped == true)
         {
@@ -32,12 +35,28 @@ public class GravityWeaponController : MonoBehaviour
             arcNeeded = false;
             Puzzle_1.isSnapped = true;
         }
+    }
 
+    void CheckArc()
+    {
+        if (arcNeeded)
+        {
+            electricArc.SetActive(true);
+            electricArcTargetPos.transform.position = grabbedRB.position;
+        }
+        else if (!arcNeeded)
+        {
+            electricArc.SetActive(false);
+        }
+    }
+
+    void GravityGunLogic()
+    {
         if (grabbedRB)
         {
             grabbedRB.MovePosition(Vector3.Lerp(grabbedRB.position, objectHolder.transform.position, Time.deltaTime * lerpSpeed));
 
-            Vector3 translateDirection = new Vector3(0,0, Input.GetAxis("Mouse ScrollWheel") * scrollSpeed);
+            Vector3 translateDirection = new Vector3(0, 0, Input.GetAxis("Mouse ScrollWheel") * scrollSpeed);
 
             objectHolder.transform.Translate(translateDirection);
 
@@ -63,9 +82,9 @@ public class GravityWeaponController : MonoBehaviour
             }
         }
 
-        if(Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            if (grabbedRB)
+            if (grabbedRB && grabbedRB.gameObject.layer == grabbedRBLayerMask)
             {
                 arcNeeded = false;
 
@@ -81,7 +100,7 @@ public class GravityWeaponController : MonoBehaviour
 
                 RaycastHit hit;
                 Ray ray = cam.ViewportPointToRay(new Vector3(.5f, .5f));
-                if(Physics.Raycast(ray, out hit, maxGrabDistance))
+                if (Physics.Raycast(ray, out hit, maxGrabDistance))
                 {
                     grabbedRB = hit.collider.gameObject.GetComponent<Rigidbody>();
                     if (grabbedRB)
@@ -90,19 +109,6 @@ public class GravityWeaponController : MonoBehaviour
                     }
                 }
             }
-        }
-    }
-
-    void CheckArc()
-    {
-        if (arcNeeded)
-        {
-            electricArc.SetActive(true);
-            electricArcTargetPos.transform.position = grabbedRB.position;
-        }
-        else if (!arcNeeded)
-        {
-            electricArc.SetActive(false);
         }
     }
 }
