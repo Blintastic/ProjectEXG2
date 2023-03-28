@@ -87,6 +87,8 @@ public class GravityWeaponController : MonoBehaviour
                     if (grabbedRB)
                     {
                         grabbedRB.isKinematic = true;
+
+                        grabbedRB.transform.eulerAngles = Vector3.zero;
                     }
                 }
             }
