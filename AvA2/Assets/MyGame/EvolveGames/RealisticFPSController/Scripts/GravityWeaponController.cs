@@ -27,7 +27,6 @@ public class GravityWeaponController : MonoBehaviour
     private void Update()
     {
         CheckArc();
-        GravityGunLogic();
 
         if (Puzzle_1.isSnapped == true)
         {
@@ -35,23 +34,7 @@ public class GravityWeaponController : MonoBehaviour
             arcNeeded = false;
             Puzzle_1.isSnapped = true;
         }
-    }
 
-    void CheckArc()
-    {
-        if (arcNeeded)
-        {
-            electricArc.SetActive(true);
-            electricArcTargetPos.transform.position = grabbedRB.position;
-        }
-        else if (!arcNeeded)
-        {
-            electricArc.SetActive(false);
-        }
-    }
-
-    void GravityGunLogic()
-    {
         if (grabbedRB)
         {
             grabbedRB.MovePosition(Vector3.Lerp(grabbedRB.position, objectHolder.transform.position, Time.deltaTime * lerpSpeed));
@@ -84,7 +67,7 @@ public class GravityWeaponController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if (grabbedRB && grabbedRB.gameObject.layer == grabbedRBLayerMask)
+            if (grabbedRB)
             {
                 arcNeeded = false;
 
@@ -111,6 +94,19 @@ public class GravityWeaponController : MonoBehaviour
                     }
                 }
             }
+        }
+    }
+
+    void CheckArc()
+    {
+        if (arcNeeded)
+        {
+            electricArc.SetActive(true);
+            electricArcTargetPos.transform.position = grabbedRB.position;
+        }
+        else if (!arcNeeded)
+        {
+            electricArc.SetActive(false);
         }
     }
 }
