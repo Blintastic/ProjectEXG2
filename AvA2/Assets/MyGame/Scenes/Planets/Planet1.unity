@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4549,6 +4549,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 887149076}
+  - component: {fileID: 887149077}
   m_Layer: 0
   m_Name: Trigger_Puzzle
   m_TagString: Untagged
@@ -4568,14 +4569,27 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 908367230}
   - {fileID: 1711502431}
   - {fileID: 1421956256}
   - {fileID: 1959242912}
   - {fileID: 1449186042}
+  - {fileID: 908367230}
   m_Father: {fileID: 0}
   m_RootOrder: 113
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &887149077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887149075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0452061e6a6f36f42ad165f00735c522, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  count: 0
 --- !u!1 &908367229
 GameObject:
   m_ObjectHideFlags: 0
@@ -4609,7 +4623,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 887149076}
-  m_RootOrder: 0
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &908367231
 BoxCollider:
@@ -4683,10 +4697,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 908367229}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0452061e6a6f36f42ad165f00735c522, type: 3}
+  m_Script: {fileID: 11500000, guid: 418eab412490c5e419c9615dea513149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  count: 0
+  puzzle_1: {fileID: 887149077}
 --- !u!1001 &909133872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6882,7 +6896,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 887149076}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1421956257
 BoxCollider:
@@ -6956,10 +6970,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1421956255}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0452061e6a6f36f42ad165f00735c522, type: 3}
+  m_Script: {fileID: 11500000, guid: 418eab412490c5e419c9615dea513149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  count: 0
+  puzzle_1: {fileID: 887149077}
 --- !u!1 &1431020974
 GameObject:
   m_ObjectHideFlags: 0
@@ -7109,7 +7123,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 887149076}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1449186043
 BoxCollider:
@@ -7183,10 +7197,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1449186041}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0452061e6a6f36f42ad165f00735c522, type: 3}
+  m_Script: {fileID: 11500000, guid: 418eab412490c5e419c9615dea513149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  count: 0
+  puzzle_1: {fileID: 887149077}
 --- !u!1001 &1494655848
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8133,20 +8147,52 @@ PrefabInstance:
       value: FinalCharacterController
       objectReference: {fileID: 0}
     - target: {fileID: 7796672818218779284, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Value.x
+      value: 0.385
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796672818218779284, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
       propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Value.y
       value: 25.315
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796672818218779284, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Value.z
+      value: 0.232
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796672818218779284, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[1].m_Value.x
+      value: 0.10899991
       objectReference: {fileID: 0}
     - target: {fileID: 7796672818218779284, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
       propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[1].m_Value.y
       value: 24.984001
       objectReference: {fileID: 0}
     - target: {fileID: 7796672818218779284, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[1].m_Value.z
+      value: 0.615
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796672818218779284, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[2].m_Value.x
+      value: 3.3749998
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796672818218779284, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
       propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[2].m_Value.y
       value: 25.948002
       objectReference: {fileID: 0}
     - target: {fileID: 7796672818218779284, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[2].m_Value.z
+      value: 3.566001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796672818218779284, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[3].m_Value.x
+      value: -0.02800101
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796672818218779284, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
       propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[3].m_Value.y
       value: 25.315
+      objectReference: {fileID: 0}
+    - target: {fileID: 7796672818218779284, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[3].m_Value.z
+      value: 7.658001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30bb30b6c0e0ef248ab7ae59a5a41eba, type: 3}
@@ -9073,7 +9119,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 887149076}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1711502432
 BoxCollider:
@@ -9147,10 +9193,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1711502430}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0452061e6a6f36f42ad165f00735c522, type: 3}
+  m_Script: {fileID: 11500000, guid: 418eab412490c5e419c9615dea513149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  count: 0
+  puzzle_1: {fileID: 887149077}
 --- !u!1 &1715959213
 GameObject:
   m_ObjectHideFlags: 0
@@ -10607,7 +10653,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 887149076}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1959242913
 BoxCollider:
@@ -10681,10 +10727,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1959242911}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0452061e6a6f36f42ad165f00735c522, type: 3}
+  m_Script: {fileID: 11500000, guid: 418eab412490c5e419c9615dea513149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  count: 0
+  puzzle_1: {fileID: 887149077}
 --- !u!1 &1962285220
 GameObject:
   m_ObjectHideFlags: 0
