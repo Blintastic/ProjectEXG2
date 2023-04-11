@@ -79,15 +79,17 @@ public class GravityWeaponController : MonoBehaviour
             }
             else
             {
-                arcNeeded = true;
+                
 
                 RaycastHit hit;
                 Ray ray = cam.ViewportPointToRay(new Vector3(.5f, .5f));
                 if (Physics.Raycast(ray, out hit, maxGrabDistance))
                 {
+                    Debug.Log(hit);
                     grabbedRB = hit.collider.gameObject.GetComponent<Rigidbody>();
                     if (grabbedRB)
                     {
+                        arcNeeded = true;
                         grabbedRB.isKinematic = true;
 
                         grabbedRB.transform.eulerAngles = Vector3.zero;
