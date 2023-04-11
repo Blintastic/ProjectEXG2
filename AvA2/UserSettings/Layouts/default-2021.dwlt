@@ -19,7 +19,11 @@ MonoBehaviour:
     width: 1206
     height: 715
   m_ShowMode: 4
+<<<<<<< HEAD
   m_Title:
+=======
+  m_Title: 
+>>>>>>> 41524858b72563b56fc83df7041e8544cecc3388
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -256,8 +260,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
   m_Name:
   m_EditorClassIdentifier:
+=======
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> 41524858b72563b56fc83df7041e8544cecc3388
   m_Children: []
   m_Position:
     serializedVersion: 2
