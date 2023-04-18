@@ -28,20 +28,13 @@ public class GravityWeaponController : MonoBehaviour
     {
         CheckArc();
 
-<<<<<<< HEAD
+
         //if (PuzzleScript4cubes.isSnapped == true)
-        {
+        
            // grabbedRB = null;
             //arcNeeded = false;
             //PuzzleScript4cubes.isSnapped = true;
-=======
-        if (Puzzle_1.isSnapped == true)
-        {
-            grabbedRB = null;
-            arcNeeded = false;
-            Puzzle_1.isSnapped = true;
->>>>>>> 1b7f5a0b2bdd405e632ca5e00d1c32c090f6f891
-        }
+
 
         if (grabbedRB)
         {
