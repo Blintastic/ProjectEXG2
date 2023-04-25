@@ -29,12 +29,15 @@ public class GravityWeaponController : MonoBehaviour
         CheckArc();
 
 
+<<<<<<< HEAD
         if (PuzzleScript4cubes.isSnapped == true)
         {
             grabbedRB = null;
             arcNeeded = false;
             PuzzleScript4cubes.isSnapped = true;
         }
+=======
+>>>>>>> 7fd6e409a9b7d12878b5b8b40ad08a55e1bc22c4
 
         if (grabbedRB)
         {
@@ -90,6 +93,7 @@ public class GravityWeaponController : MonoBehaviour
                     grabbedRB = hit.collider.gameObject.GetComponent<Rigidbody>();
                     if (grabbedRB)
                     {
+
                         arcNeeded = true;
                         grabbedRB.isKinematic = true;
 

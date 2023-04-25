@@ -15,7 +15,13 @@ public class PortalScript : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")
-            SceneManager.LoadScene(LevelIndex);
+        if (other.gameObject.tag == "GameController")
+        {
+            Debug.Log("funktioniert");
+            SceneManager.LoadScene(2);
+
+
+        }
+        
     }
 }
