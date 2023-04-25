@@ -13,5 +13,6 @@ public class CreaturePathFollowing : MonoBehaviour
     {
         distanceTravelled += speed * Time.deltaTime;
         transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled);
+        transform.rotation = pathCreator.path.GetRotationAtDistance(distanceTravelled);
     }
 }
