@@ -28,17 +28,6 @@ public class GravityWeaponController : MonoBehaviour
     {
         CheckArc();
 
-
-<<<<<<< HEAD
-        if (PuzzleScript4cubes.isSnapped == true)
-        {
-            grabbedRB = null;
-            arcNeeded = false;
-            PuzzleScript4cubes.isSnapped = true;
-        }
-=======
->>>>>>> 7fd6e409a9b7d12878b5b8b40ad08a55e1bc22c4
-
         if (grabbedRB)
         {
             grabbedRB.MovePosition(Vector3.Lerp(grabbedRB.position, objectHolder.transform.position, Time.deltaTime * lerpSpeed));
