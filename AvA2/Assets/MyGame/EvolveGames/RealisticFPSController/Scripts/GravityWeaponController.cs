@@ -28,8 +28,6 @@ public class GravityWeaponController : MonoBehaviour
     {
         CheckArc();
 
-
-
         if (grabbedRB)
         {
             grabbedRB.MovePosition(Vector3.Lerp(grabbedRB.position, objectHolder.transform.position, Time.deltaTime * lerpSpeed));
