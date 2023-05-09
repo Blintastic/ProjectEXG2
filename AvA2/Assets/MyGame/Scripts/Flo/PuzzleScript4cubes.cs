@@ -5,7 +5,7 @@ using UnityEngine;
 public class PuzzleScript4cubes : MonoBehaviour
 {
     public Puzzle_1 puzzle_1;
-    public static bool isSnapped = false;
+    
 
 
     private void OnTriggerEnter(Collider other)
@@ -13,10 +13,6 @@ public class PuzzleScript4cubes : MonoBehaviour
         if (other.tag == "Cube")
         {
             puzzle_1.count++;
-
-            other.gameObject.transform.position = gameObject.transform.position;
-            other.gameObject.transform.rotation = gameObject.transform.rotation;
-            isSnapped = true;
         }
 
     }
@@ -25,9 +21,7 @@ public class PuzzleScript4cubes : MonoBehaviour
     {
         if (other.tag == "Cube")
         {
-            puzzle_1.count--;
-
-            isSnapped = false;
+            puzzle_1.count--;           
         }
     }
 }
