@@ -1,0 +1,143 @@
+# Blender MTL File: 'ShoknWomn.blend'
+# Material Count: 14
+
+newmtl Bronze
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Eye_ice
+Ns 500.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\\RPJOKE\\ShoknWomn\\ice_eye.png
+
+newmtl Eyelashes
+Ns 249.019608
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd D:\\RPJOKE\\ShoknWomn\\eyelashes01.png
+map_d D:\\RPJOKE\\ShoknWomn\\eyelashes01.png
+
+newmtl Glass.001
+Ns 586.274510
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 1.000000 1.000000 1.000000
+Ni 1.100000
+d 0.000000
+illum 2
+map_Bump D:\\RPJOKE\\Deone\\clouds.png
+map_Kd D:\\RPJOKE\\Deone\\glass.png
+map_d D:\\RPJOKE\\Deone\\glass.png
+
+newmtl Leather
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Leather.001
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\body_NORMALS_texture.png
+
+newmtl Leather.002
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Leather_Untitled.012
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\body_NORMALS_texture.png
+
+newmtl SSSSkin
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl SSSSkin.001
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\RPJOKE\ShoknWomn\Untitled.001.png
+
+newmtl SSSSkin.001_Untitled.012
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\body_NORMALS_texture.png
+
+newmtl Wood
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.018920 0.018920 0.018920
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump D:\\RPJOKE\\ShoknWomn\\textures\\Wood.jpg
+map_Kd D:\\RPJOKE\\ShoknWomn\\textures\\Wood.jpg
+
+newmtl eyebrow001
+Ns 249.019608
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 2
+map_Kd D:\\RPJOKE\\ShoknWomn\\eyebrow001.png
+map_d D:\\RPJOKE\\ShoknWomn\\eyebrow001.png
+
+newmtl teethMaterial
+Ns 398.039216
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.213725 0.213725 0.213725
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\\RPJOKE\\ShoknWomn\\teeth.png
