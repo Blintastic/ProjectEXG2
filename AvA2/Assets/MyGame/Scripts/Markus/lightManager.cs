@@ -1,12 +1,30 @@
 using System.Collections;
+using System;
+using System.Net.Sockets;
 using System.Collections.Generic;
 using UnityEngine;
-using ArtDotNet;
+using System.Net;
+using ArtDotNet.Packets;
 
-public class lightManager : MonoBehaviour
+namespace ArtDotNet
 {
-    private ArtNetClient artClient;
 
-    [SerializeField]
-    private Light[] lights;
+    public class lightManager : MonoBehaviour
+    {
+        private ArtNetClient artClient;
+        public IPAddress Address { get; set; }
+
+        [SerializeField]
+        private Light[] lights;
+
+
+
+
+
+    }
+
 }
+
+
+
+
