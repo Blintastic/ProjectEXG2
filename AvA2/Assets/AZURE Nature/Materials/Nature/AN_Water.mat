@@ -2,14 +2,16 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: AN_Water
   m_Shader: {fileID: 4800000, guid: faaeb4a0622f3594095e9e1327bca9e2, type: 3}
-  m_ShaderKeywords: _WAVESNORMALINTENSITY_ON
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _WAVESNORMALINTENSITY_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -47,12 +49,13 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _1: 0.8
     - _2: 0.7
     - _AlphaCutoff: 0.5
     - _ChromaticAberration: 0
-    - _CoastOpacity: 0.348
+    - _CoastOpacity: 0.661
     - _CoastalWavesDensity: 0.5
     - _DepthDistance: 1.5
     - _DepthFade: 1
@@ -62,17 +65,17 @@ Material:
     - _Float1: 0
     - _Float2: 0.1
     - _Float3: 0
-    - _FoamContrast: 0.7
-    - _FoamDensity: 0.392
-    - _FoamDistance: 0.35
+    - _FoamContrast: 0.548
+    - _FoamDensity: 0.34
+    - _FoamDistance: 1.31
     - _FoamOpacity: 1
     - _Normal: 0.15
     - _Opacity: 1
     - _Power: 0.2
     - _RefractionIntensity: 0.15
-    - _RefractionScale: 0.2
+    - _RefractionScale: 0.229
     - _Scale: 50
-    - _Smoothness: 0.88
+    - _Smoothness: 0.787
     - _TessEdgeLength: 16
     - _TessMax: 25
     - _TessMaxDisp: 25
@@ -91,15 +94,16 @@ Material:
     - _UDepthDistance: 0.3
     - _UDistancePower: 0.1
     - _WavesNormalIntensity: 0.35
-    - _WavesSpeed: 0.1
-    - _WavesTile: 0.15
+    - _WavesSpeed: 0.135
+    - _WavesTile: 0.08
     - __dirty: 0
     m_Colors:
     - _Color0: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 0}
-    - _Color1: {r: 0.049276415, g: 0.319, b: 0.30343902, a: 0}
-    - _Color2: {r: 0.09011214, g: 0.6285934, b: 0.7075472, a: 0}
+    - _Color1: {r: 0, g: 0.15047061, b: 0.4433962, a: 0}
+    - _Color2: {r: 0.38216448, g: 0.50549585, b: 0.7169812, a: 0}
     - _DepthColor: {r: 0, g: 1, b: 0.9725489, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _NormalScale: {r: 2, g: 2, b: 0, a: 0}
     - _Vector0: {r: 1, g: 1, b: 1, a: 0}
     - _WaterColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []

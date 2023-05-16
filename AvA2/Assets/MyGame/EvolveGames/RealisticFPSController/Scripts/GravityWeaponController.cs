@@ -78,7 +78,6 @@ public class GravityWeaponController : MonoBehaviour
                 Ray ray = cam.ViewportPointToRay(new Vector3(.5f, .5f));
                 if (Physics.Raycast(ray, out hit, maxGrabDistance))
                 {
-                    Debug.Log(hit);
                     grabbedRB = hit.collider.gameObject.GetComponent<Rigidbody>();
                     if (grabbedRB)
                     {
