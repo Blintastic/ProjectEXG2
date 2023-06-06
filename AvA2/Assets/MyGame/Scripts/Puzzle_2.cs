@@ -9,7 +9,7 @@ public class Puzzle_2 : MonoBehaviour
 
     private void Update()
     {
-        if (count == 7)
+        if (count == 21)
         {
             portal.SetActive(true);
             Debug.Log("Activate Portal");
