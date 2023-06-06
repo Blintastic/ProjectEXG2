@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PuzzleScript4cubes : MonoBehaviour
 {
-    public Puzzle_1 puzzle_1;
+    public Puzzle_2 puzzle_2;
     
 
 
@@ -12,7 +12,7 @@ public class PuzzleScript4cubes : MonoBehaviour
     {
         if (other.tag == "Cube")
         {
-            puzzle_1.count++;
+            puzzle_2.count++;
         }
 
     }
@@ -21,7 +21,7 @@ public class PuzzleScript4cubes : MonoBehaviour
     {
         if (other.tag == "Cube")
         {
-            puzzle_1.count--;           
+            puzzle_2.count--;           
         }
     }
 }
