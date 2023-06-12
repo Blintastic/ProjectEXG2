@@ -62,6 +62,7 @@ public class GravityWeaponController : MonoBehaviour
         {
             if (grabbedRB)
             {
+
                 arcNeeded = false;
 
                 grabbedRB.isKinematic = false;
@@ -72,7 +73,6 @@ public class GravityWeaponController : MonoBehaviour
             }
             else
             {
-                
 
                 RaycastHit hit;
                 Ray ray = cam.ViewportPointToRay(new Vector3(.5f, .5f));
@@ -94,14 +94,22 @@ public class GravityWeaponController : MonoBehaviour
 
     void CheckArc()
     {
-        if (arcNeeded)
+        if (grabbedRB)
         {
-            electricArc.SetActive(true);
-            electricArcTargetPos.transform.position = grabbedRB.position;
+            if (arcNeeded)
+            {
+                electricArc.SetActive(true);
+                electricArcTargetPos.transform.position = grabbedRB.position;
+            }
+            
         }
-        else if (!arcNeeded)
+        else
         {
-            electricArc.SetActive(false);
+            if (!arcNeeded)
+            {
+                electricArc.SetActive(false);
+            }
         }
+        
     }
 }
