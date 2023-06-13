@@ -12,6 +12,7 @@ EditorBuildSettings:
     path: Assets/MyGame/Scenes/Planets/Planet1.unity
     guid: 584f381b75267084bae7cd95a707f30a
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/MyGame/Scenes/Planets/Planet3 1.unity
     guid: 14a67225533b14d46a66e776abd89b4c
   - enabled: 1
@@ -20,4 +21,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MyGame/Scenes/Planets/End.unity
     guid: 6d3e7c0e7ccc670439c428187eda52a8
+=======
+    path: Assets/MyGame/Scenes/Planets/Planet3.unity
+    guid: 5ec84f4b16bb24342a70b35cf997e445
+>>>>>>> parent of 1d24b4b (.)
   m_configObjects: {}
