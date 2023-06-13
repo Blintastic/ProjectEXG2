@@ -27,6 +27,10 @@ public class Portal : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(4);
+        if(other.tag == "GameController")
+        {
+            SceneManager.LoadScene(4);
+        }
+        
     }
 }
