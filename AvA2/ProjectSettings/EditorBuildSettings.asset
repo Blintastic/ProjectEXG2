@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/MyGame/Scenes/StartMenu/Planet3.unity
     guid: 530911c9c5f4fa54184678d23787e09d
   - enabled: 1
-    path: Assets/MyGame/Scenes/Planets/Planet1.unity
-    guid: 584f381b75267084bae7cd95a707f30a
+    path: Assets/MyGame/Scenes/Planets/Planet1 2.unity
+    guid: f6b5c7334fb48394cb4538c2a33c5c7a
   - enabled: 1
     path: Assets/MyGame/Scenes/Planets/Planet3 1.unity
     guid: 14a67225533b14d46a66e776abd89b4c
